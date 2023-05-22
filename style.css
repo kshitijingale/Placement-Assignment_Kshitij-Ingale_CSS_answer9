@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  margin: auto;
+  width: 890px;
+}
+
+.column-nums {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.right {
+  align-self: center;
+}
+
+.row-nums {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.num {
+  height: 40px;
+  width: 40px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spl {
+  margin-right: 20px;
+}
+
+.down {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: max-content;
+}
+
+.column {
+  display: inline-block;
+}
+
+.element {
+  display: flex;
+  flex-direction: column;
+  height: 40px;
+  width: 40px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+  border: 1px solid #000;
+}
+
+.star {
+  display: flex;
+  flex-direction: column;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.space {
+  display: inline-block;
+  width: 146px;
+}
+
+.star-div {
+  margin-top: 20px;
+}
+
+.red {
+  background-color: #f29898;
+}
+
+.blue {
+  background-color: #97caf8;
+}
+
+.yellow {
+  background-color: #fcf98b;
+}
+
+.green {
+  background-color: #98f698;
+}
